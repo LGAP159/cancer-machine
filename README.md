@@ -38,6 +38,12 @@ Todos os dados passam por:
 ✔ Separação em treino/teste (398/171 amostras)
 ✔ Avaliação comparativa entre modelos
 
+
+
+<img width="618" height="470" alt="image" src="https://github.com/user-attachments/assets/d61abb6e-5201-40e5-9120-7dbcf3683375" />
+
+tipos de tumores que serão decetados
+
 🛠️ Como Executar os Scripts
 1. Clone o repositório:
 git clone https://github.com/LGAP159/cancer-machine
