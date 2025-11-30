@@ -40,7 +40,7 @@ Todos os dados passam por:
 
 🛠️ Como Executar os Scripts
 1. Clone o repositório:
-git clone https://github.com/SEU_USUARIO/breast-cancer-classification-ml.git
+git clone https://github.com/LGAP159/cancer-machine
 cd breast-cancer-classification-ml
 
 2. Instale as dependências:
