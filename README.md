@@ -78,4 +78,7 @@ matplotlib
 
 A análise mostrou que modelos baseados em SVM são muito eficazes para esse tipo de classificação, especialmente quando usam kernels polinomiais. O SVM grau 2 apresentou o melhor equilíbrio entre precisão, recall e capacidade de generalização, mostrando potencial para aplicações clínicas de apoio ao diagnóstico.
 <img width="618" height="470" alt="image" src="https://github.com/user-attachments/assets/97a8e046-adf8-4b0c-83a6-d659ee8d0dd7" />
+
+
+
 tipos de tumores detectáveis
