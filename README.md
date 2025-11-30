@@ -1,125 +1,64 @@
-🩺 Cancer machine
-
+# 🩺 Cancer Machine
 Este repositório contém um projeto completo de classificação de câncer de mama utilizando modelos de Machine Learning aplicados ao Breast Cancer Wisconsin (Diagnostic) Dataset.
-O objetivo é comparar diferentes algoritmos de classificação e identificar qual apresenta melhor desempenho para apoiar diagnósticos médicos.
+O objetivo é comparar diferentes algoritmos de classificação e identificar qual apresenta melhor desempenho para apoiar os diagnósticos médicos sobre câncer de mama, apontando se os tumores são malignos ou benignos.
 
-📌 Conteúdo do Repositório
-/data            → dataset ou link para download  
-/notebooks       → análise exploratória e experimentos  
-/src             → scripts Python com a implementação dos modelos  
-/results         → tabelas e figuras geradas  
-requirements.txt → dependências do projeto  
-README.md        → documentação geral  
+## 💻 Tecnologias Utilizadas
+- Python
 
-📥 Dataset
-
+### 📓 Bibliotecas Requeridas
+- pandas
+- numpy
+- scikit-learn
+- matplotlib
+  
+## 📥 Dataset
 O projeto utiliza o Breast Cancer Wisconsin (Diagnostic) Dataset, disponível diretamente no Scikit-Learn ou para download em:
 
 🔗 https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic
 
 Para carregar via Scikit-Learn:
 
+```
 from sklearn.datasets import load_breast_cancer
 data = load_breast_cancer()
+```
 
-🧠 Modelos Utilizados
+## 🧠 Modelos de Machine Learning Utilizados
+- Logistic Regression
+- Support Vector Machine (SVM) com Kernel Linear
+- Support Vector Machine (SVM) com Kernel Polinomial (grau 2 e grau 3)
 
-Os seguintes modelos foram treinados:
-
-Logistic Regression
-
-SVM com Kernel Linear
-
-SVM com Kernel Polinomial (grau 2 e grau 3)
-
-Todos os dados passam por:
-
-✔ Padronização (StandardScaler)
-✔ Separação em treino/teste (398/171 amostras)
-✔ Avaliação comparativa entre modelos
-
-
-
-<img width="618" height="470" alt="image" src="https://github.com/user-attachments/assets/d61abb6e-5201-40e5-9120-7dbcf3683375" />
-
-tipos de tumores que serão decetados
-
-🛠️ Como Executar os Scripts
-1. Copie o link do repositório git: https://github.com/LGAP159/cancer-machine
+## 🛠️ Como Executar os Scripts
+1. Copie o link do repositório git:
+```
+https://github.com/LGAP159/cancer-machine
+```
 
 2. Instale as dependências:
+```
 pip install -r requirements.txt
+```
 
 3. Execute o script principal:
+```
 python src/train_models.py
+```
+### 📓 Bibliotecas Requeridas
+- pandas
+- numpy
+- scikit-learn
+- matplotlib
 
+## 👩🏽‍💻 Código
+O notebook principal se encontra em:
 
-Isso irá:
+🔗 https://colab.research.google.com/drive/1z8ibAHjOsA3Ouc7Dn8tubyXotHzr2qFT?usp=sharing#scrollTo=jUdAD6MU3DXE 
 
-carregar e padronizar os dados
+## 💡 Sugestão 
+O Jupyter é uma ferramenta perfeita para fazer análise de dados, estatística, machine learning e análises exploratórias. Caso queira utilizar em suas análises, faça assim:
 
-treinar todos os modelos
-
-salvar métricas em /results/
-
-gerar matrizes de confusão, curvas ROC e tabela comparativa
-
-📓 Notebooks
-
-O notebook principal se encontra em:https://colab.research.google.com/drive/1z8ibAHjOsA3Ouc7Dn8tubyXotHzr2qFT?usp=sharing#scrollTo=jUdAD6MU3DXE
-
-
-Ele contém:
-
-EDA (exploração do dataset)
-
-Justificativa dos modelos
-
-Treinamento
-
-Avaliação com gráficos
-
-Comparação final
-
-📊 Resultados Obtidos (Resumo)
-
-O modelo com melhor desempenho foi:
-
-⭐ SVM com Kernel Polinomial (Grau 2)
-
-Com:
-
-Acurácia alta
-
-F1 excelente
-
-AUC superior
-
-100% de precisão para tumores malignos
-
-💻 Tecnologias Utilizadas
-
-Python
-
-pandas
-
-numpy
-
-scikit-learn
-
-matplotlib
-
-📄 requirements.txt sugerido
-numpy
-pandas
-scikit-learn
-matplotlib
-jupyter
-
-Resultados dos treinos:
-
-
-
-
-<img width="846" height="701" alt="image" src="https://github.com/user-attachments/assets/aa3450e3-727f-45e5-bb14-0b337fc86d37" />
+- Para instalar o Jupyter
+```
+pip install jupyter
+```
 
